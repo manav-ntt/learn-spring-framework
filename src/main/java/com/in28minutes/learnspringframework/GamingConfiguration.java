@@ -18,6 +18,7 @@ public class GamingConfiguration {
 	}
 
 	@Bean
+	@Primary
 	public GamingConsole game() {
 		var game = new MarioGame();
 		return game;
