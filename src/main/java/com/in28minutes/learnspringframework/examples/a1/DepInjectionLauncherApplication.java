@@ -1,6 +1,5 @@
 package com.in28minutes.learnspringframework.examples.a1;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -20,9 +19,6 @@ class YourBusinessClass {
         this.dependency2 = dependency2;
     }
 
-
-
-
   /*  @Autowired
     public void setDependency1(Dependency1 dependency1) {
         System.out.println("Setter Injection - setDependency1");
@@ -41,6 +37,7 @@ class YourBusinessClass {
         return "Using " + dependency1 + " and " + dependency2;
     }
 }
+
 
 @Component
 class Dependency1 {
